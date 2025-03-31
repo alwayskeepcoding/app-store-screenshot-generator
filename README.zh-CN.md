@@ -4,7 +4,7 @@
 
 一个简单的 Python 脚本，使用 Pillow 库通过将带框架的设备模型放置在背景图像上来创建 App Store 风格的截图。
 
-![示例输出](output/example_3_triple_overlap.png)
+<img src="output/example_3_triple_overlap.png" alt="示例输出" height="400">
 *（使用脚本生成的示例）*
 
 ## 功能特点
@@ -41,7 +41,7 @@
 ## 使用方法
 
 1. **准备您的图像：**
-   * 将您的背景图像（例如 `background.jpg`）放在仓库的根目录中。
+   * 将您的背景图像（例如 `background.jpeg`）放在仓库的根目录中。
    * 将您的应用截图（例如 `screenshot1.png`、`screenshot2.png`、`screenshot3.png`）放在根目录中。
      *（脚本包含使用这些文件名的示例。）*
 
@@ -51,7 +51,7 @@
    python app_store_screenshot_generator.py
    ```
    这将：
-   * 检查 `background.jpg`、`screenshot1.png`、`screenshot2.png` 和 `screenshot3.png` 是否存在。
+   * 检查 `background.jpeg`、`screenshot1.png`、`screenshot2.png` 和 `screenshot3.png` 是否存在。
    * 根据脚本的 `if __name__ == "__main__":` 块中的配置生成示例截图（单个、双个、三重重叠）。
    * 将输出图像保存到 `output/` 目录（如果该目录不存在，将创建它）。
 
@@ -76,9 +76,9 @@
 
 | 输入图像 | 输出结果 | 配置 |
 |--------------|---------------|---------------|
-| ![背景](background.jpg) + ![截图1](screenshot1.png) | ![单个设备](output/example_1_single.png) | 单个居中设备 |
-| ![背景](background.jpg) + ![截图1](screenshot1.png) + ![截图2](screenshot2.png) | ![双设备](output/example_2_double.png) | 两个并排设备 |
-| ![背景](background.jpg) + ![截图1](screenshot1.png) + ![截图2](screenshot2.png) + ![截图3](screenshot3.png) | ![三重重叠](output/example_3_triple_overlap.png) | 三个重叠设备，带有 z 轴排序 |
+| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> | <img src="output/example_1_single.png" height="200"> | 单个居中设备 |
+| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> | <img src="output/example_2_double.png" height="200"> | 两个并排设备 |
+| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> + <img src="screenshot3.png" height="150"> | <img src="output/example_3_triple_overlap.png" height="200"> | 三个重叠设备，带有 z 轴排序 |
 
 ## 许可证
 

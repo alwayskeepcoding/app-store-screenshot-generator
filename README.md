@@ -6,7 +6,7 @@
 
 A simple Python script using Pillow to create app store-style screenshots by placing framed device mockups onto a background image.
 
-![Example Output](output/example_3_triple_overlap.png)
+<img src="output/example_3_triple_overlap.png" alt="Example Output" height="400">
 *(Example generated using the script)*
 
 ## Features
@@ -43,7 +43,7 @@ A simple Python script using Pillow to create app store-style screenshots by pla
 ## Usage
 
 1.  **Prepare your images:**
-    *   Place your background image (e.g., `background.jpg`) in the repository's root directory.
+    *   Place your background image (e.g., `background.jpeg`) in the repository's root directory.
     *   Place your app screenshot images (e.g., `screenshot1.png`, `screenshot2.png`, `screenshot3.png`) in the root directory.
         *(The script includes examples using these filenames.)*
 
@@ -53,7 +53,7 @@ A simple Python script using Pillow to create app store-style screenshots by pla
     python app_store_screenshot_generator.py
     ```
     This will:
-    *   Check if `background.jpg`, `screenshot1.png`, `screenshot2.png`, and `screenshot3.png` exist.
+    *   Check if `background.jpeg`, `screenshot1.png`, `screenshot2.png`, and `screenshot3.png` exist.
     *   Generate example screenshots (single, double, triple-overlap) based on the configurations in the script's `if __name__ == "__main__":` block.
     *   Save the output images to the `output/` directory (which will be created if it doesn't exist).
 
@@ -78,9 +78,9 @@ Here are some examples of input images and the resulting output:
 
 | Input Images | Output Result | Configuration |
 |--------------|---------------|---------------|
-| ![Background](background.jpg) + ![Screenshot1](screenshot1.png) | ![Single Device](output/example_1_single.png) | Single centered device |
-| ![Background](background.jpg) + ![Screenshot1](screenshot1.png) + ![Screenshot2](screenshot2.png) | ![Double Device](output/example_2_double.png) | Two devices side by side |
-| ![Background](background.jpg) + ![Screenshot1](screenshot1.png) + ![Screenshot2](screenshot2.png) + ![Screenshot3](screenshot3.png) | ![Triple Overlap](output/example_3_triple_overlap.png) | Three overlapping devices with z-ordering |
+| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> | <img src="output/example_1_single.png" height="200"> | Single centered device |
+| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> | <img src="output/example_2_double.png" height="200"> | Two devices side by side |
+| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> + <img src="screenshot3.png" height="150"> | <img src="output/example_3_triple_overlap.png" height="200"> | Three overlapping devices with z-ordering |
 
 ## License
 

@@ -296,7 +296,7 @@ if __name__ == "__main__":
     print("Starting App Store Screenshot generation...")
 
     # --- Define Example Files (User should place these in the same directory as the script) ---
-    EXAMPLE_BACKGROUND = "background.jpg" # Provide a background image
+    EXAMPLE_BACKGROUND = "background.jpeg" # Provide a background image
     EXAMPLE_SCREENSHOT_1 = "screenshot1.png" # Provide screenshot 1
     EXAMPLE_SCREENSHOT_2 = "screenshot2.png" # Provide screenshot 2
     EXAMPLE_SCREENSHOT_3 = "screenshot3.png" # Provide screenshot 3
