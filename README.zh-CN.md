@@ -76,9 +76,9 @@
 
 | 输入图像 | 输出结果 | 配置 |
 |--------------|---------------|---------------|
-| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> | <img src="output/example_1_single.png" height="200"> | 单个居中设备 |
-| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> | <img src="output/example_2_double.png" height="200"> | 两个并排设备 |
-| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> + <img src="screenshot3.png" height="150"> | <img src="output/example_3_triple_overlap.png" height="200"> | 三个重叠设备，带有 z 轴排序 |
+| <img src="background.jpeg" height="200"> + <img src="screenshot1.png" height="200"> | <img src="output/example_1_single.png" height="200"> | 单个居中设备 |
+| <img src="background.jpeg" height="200"> + <img src="screenshot1.png" height="200"> + <img src="screenshot2.png" height="200"> | <img src="output/example_2_double.png" height="200"> | 两个并排设备 |
+| <img src="background.jpeg" height="200"> + <img src="screenshot1.png" height="200"> + <img src="screenshot2.png" height="200"> + <img src="screenshot3.png" height="200"> | <img src="output/example_3_triple_overlap.png" height="200"> | 三个重叠设备，带有 z 轴排序 |
 
 ## 许可证
 

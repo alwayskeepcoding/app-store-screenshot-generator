@@ -78,9 +78,9 @@ Here are some examples of input images and the resulting output:
 
 | Input Images | Output Result | Configuration |
 |--------------|---------------|---------------|
-| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> | <img src="output/example_1_single.png" height="200"> | Single centered device |
-| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> | <img src="output/example_2_double.png" height="200"> | Two devices side by side |
-| <img src="background.jpeg" height="150"> + <img src="screenshot1.png" height="150"> + <img src="screenshot2.png" height="150"> + <img src="screenshot3.png" height="150"> | <img src="output/example_3_triple_overlap.png" height="200"> | Three overlapping devices with z-ordering |
+| <img src="background.jpeg" height="200"> + <img src="screenshot1.png" height="200"> | <img src="output/example_1_single.png" height="200"> | Single centered device |
+| <img src="background.jpeg" height="200"> + <img src="screenshot1.png" height="200"> + <img src="screenshot2.png" height="200"> | <img src="output/example_2_double.png" height="200"> | Two devices side by side |
+| <img src="background.jpeg" height="200"> + <img src="screenshot1.png" height="200"> + <img src="screenshot2.png" height="200"> + <img src="screenshot3.png" height="200"> | <img src="output/example_3_triple_overlap.png" height="200"> | Three overlapping devices with z-ordering |
 
 ## License
 
