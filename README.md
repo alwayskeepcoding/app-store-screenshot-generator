@@ -69,7 +69,7 @@ When configuring screenshots (in the `screenshots_config` list), use these keys 
 *   `relative_width`: (Required) Desired device frame width as a fraction of the background image width (e.g., `0.8` for 80%).
 *   `relative_position`: (Required) Tuple `(rel_x, rel_y)` for the *center* of the device frame relative to the background dimensions (e.g., `(0.5, 0.5)` for center).
 *   `relative_border_width`: (Optional) Border width as a fraction of device width. Defaults to `0.02` (2%).
-*   `relative_corner_radius`: (Optional) Corner radius as a fraction of device width. Defaults to `0.08` (8%).
+*   `relative_corner_radius`: (Optional) Corner radius as a fraction of device width. Defaults to `0.2` (20%).
 *   `z_order`: (Optional) Integer for stacking order (higher value is on top). Defaults to `0`.
 
 ## Examples
